@@ -1,0 +1,7 @@
+---
+applications:
+  - name: sprinpong
+    buildpack: java_buildpack
+    path: ./cfProject.war
+    services:
+      - mysql
